@@ -70,6 +70,20 @@ const data = [
         detail: "+98 921 062 9512"
     },
     {
+        name: "linkedin",
+        link: "https://www.linkedin.com/in/homow/",
+        icon: "fa-brands fa-linkedin",
+        color: "var(--blue-telegram)",
+        detail: "linkedin.com/in/homow/"
+    },
+    {
+        name: "facebook",
+        link: "https://www.facebook.com/homow.dev",
+        icon: "fa-brands fa-facebook",
+        color: "var(--blue-telegram)",
+        detail: "facebook.com/homow.dev"
+    },
+    {
         name: "proton",
         link: "mailto:homow_dev@proton.me",
         icon: "fa-solid fa-envelope",
@@ -83,20 +97,6 @@ const data = [
         color: "var(--light-blue)",
         detail: "homayoun.sharifi80@gmail.com"
     },
-    {
-        name: "linkedin",
-        link: "https://www.linkedin.com/in/homow/",
-        icon: "fa-brands fa-linkedin",
-        color: "var(--blue-telegram)",
-        detail: "linkedin.com/in/homow/"
-    },
-    {
-        name: "facebook",
-        link: "https://www.facebook.com/homow.dev",
-        icon: "fa-brands fa-facebook",
-        color: "var(--blue-telegram)",
-        detail: "facebook.com/homow.dev"
-    }
 ];
 
 const EN = {

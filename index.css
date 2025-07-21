@@ -184,9 +184,13 @@ li {
     gap: 1rem;
     padding: .5rem 1rem;
     border-radius: 4px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     direction: ltr !important;
     transition: all 250ms;
+}
+
+.contact-box-wrapper a i  {
+    font-size: 1.5rem;
 }
 
 .contact-box-wrapper a:hover {
@@ -216,6 +220,9 @@ li {
     .header-title-wrapper p {
         max-width: 70%;
         margin: 0 auto;
+    }
+    .contact-box-wrapper a {
+        font-size: 1.2rem;
     }
 }
 
@@ -267,8 +274,13 @@ li {
 }
 
 @media only screen and (max-width: 460px) {
-    .contact-box-wrapper a {
-        font-size: 1rem;
+    .contact-box-wrapper a span:last-child {
+        font-size: .9rem;
+    }
+    .contact-wrapper {
+        grid-template-columns: repeat(2, max-content);
+        justify-content: space-between;
+        width: 100%;
     }
 }
 
@@ -279,10 +291,6 @@ li {
 
     .container {
         padding: 0 .4rem;
-    }
-
-    .contact-box-wrapper a span:last-child {
-        font-size: .8rem;
     }
 
     .header-title-wrapper p {
@@ -301,11 +309,37 @@ li {
     }
 }
 
-@media only screen and (max-width: 320px) {
-    .contact-box-wrapper a {
+@media only screen and (max-width: 360px) {
+    .contact-box-wrapper a span:last-child {
         font-size: .85rem;
     }
+    .contact-box-wrapper a {
+        font-size: 1rem;
+    }
+    .contact-box-wrapper:nth-child(11), .contact-box-wrapper:nth-child(12), .contact-box-wrapper:nth-child(13), .contact-box-wrapper:nth-child(14) {
+        grid-column: 1/3;
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .contact-wrapper {
+        grid-template-columns: repeat(1, max-content);
+        justify-content: center;
+        row-gap: 1rem;
+    }
+    .contact-box-wrapper:nth-child(11), .contact-box-wrapper:nth-child(12), .contact-box-wrapper:nth-child(13), .contact-box-wrapper:nth-child(14) {
+        grid-column: unset;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .contact-box-wrapper a span:last-child {
-        font-size: .75rem;
+        font-size: 1rem;
+    }
+    .contact-box-wrapper a {
+        font-size: 1.1rem;
     }
 }
