@@ -3,6 +3,7 @@ import * as info from "/data.js";
 const textBodyElem = document.querySelectorAll(".bodyTranslate")
 const menuLinks = document.querySelectorAll(".menu-items a")
 const linksIcon = document.querySelectorAll(".menu-items a .fa-arrow-up-right-from-square")
+const headerContainer = document.querySelector(".header-container")
 const contactWrapper = document.querySelector(".contact")
 const langBtn = document.getElementById("lang")
 const text = langBtn.querySelector("span")
@@ -19,6 +20,7 @@ const changeBodyDir = () => {
     })
 
     document.querySelector(".contact-wrapper").classList.toggle("dir-eng", lang === "EN")
+    headerContainer.classList.toggle("dir-eng", lang === "EN")
 }
 
 const setText = () => {
@@ -53,7 +55,7 @@ const changDir = () => {
 
 const createTemplate = (data, lang) => {
     const wrapper = document.createElement('div');
-    wrapper.className = "contact-wrapper";
+    wrapper.className = "contact-wrapper glass-morphism-box";
 
     data.forEach(d => {
         const template = `<div class="contact-box-wrapper">

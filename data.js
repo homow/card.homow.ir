@@ -135,6 +135,7 @@ const FA = {
 
 const bodyEN = {
     bodyTitle: "Homayoun Sharifi",
+    mainTitle: "Feel free to contact me through any method that is most convenient for you",
     bodySub: "Web Developer & WordPress Developer | Programming Projects | Academic Projects",
     linkWeb: "My Website",
     linkAbout: "About Me",
@@ -144,6 +145,7 @@ const bodyEN = {
 
 const bodyFA = {
     bodyTitle: "همایون شریفی",
+    mainTitle: "با هر راهی که راحت بودید باهام ارتباط برقرار کنید",
     bodySub: "توسعه دهنده وبسایت معمولی و وردپرسی | پروژه های برنامه نویسی | پروژه های دانشجویی",
     linkWeb: "وبسایت",
     linkAbout: "درباره من",
