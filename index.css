@@ -23,7 +23,8 @@ html {
 :root {
     --background-color: #1e1f26;
     --text-color: #fff;
-    --hover-text: #858383;
+    --hover-text: #beb5b5;
+    --sub-text: #858383;
     --box-shadow: 0 2px 8px 2px #121318;
     --inset-shadow: 0 0 5px 0 #1e1f26 inset;
     --box-hover: rgba(0, 0, 0, 0.25);
@@ -210,6 +211,10 @@ li {
 
 .contact-box-wrapper i {
     padding-right: .1rem;
+}
+
+.contact-box-wrapper a span:last-child {
+    color: var(--sub-text);
 }
 
 /* footer */
