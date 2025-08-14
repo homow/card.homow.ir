@@ -7,11 +7,25 @@ const data = [
         detail: "homow.ir"
     },
     {
+        name: "youtube",
+        link: "https://www.youtube.com/@homow_dev",
+        icon: "fa-brands fa-youtube",
+        color: "var(--light-blue)",
+        detail: "@homow_dev"
+    },
+    {
         name: "github",
         link: "https://github.com/homow",
         icon: "fa-brands fa-github",
         color: "var(--light-blue)",
         detail: "github.com/homow"
+    },
+    {
+        name: "instagram",
+        link: "https://www.instagram.com/homow_dev",
+        icon: "fa-brands fa-instagram",
+        color: "#9929EA",
+        detail: "@homow_dev"
     },
     {
         name: "phone1",
@@ -56,13 +70,6 @@ const data = [
         detail: "@homow_chat"
     },
     {
-        name: "instagram",
-        link: "https://www.instagram.com/homow_dev",
-        icon: "fa-brands fa-instagram",
-        color: "#9929EA",
-        detail: "@homow_dev"
-    },
-    {
         name: "whatsapp",
         link: "https://wa.me/989210629512",
         icon: "fa-brands fa-whatsapp",
@@ -90,13 +97,6 @@ const data = [
         color: "var(--light-blue)",
         detail: "homow_dev@proton.me"
     },
-    {
-        name: "gmail",
-        link: "mailto:homayoun.sharifi80@gmail.com",
-        icon: "fa-solid fa-envelope",
-        color: "var(--light-blue)",
-        detail: "homayoun.sharifi80@gmail.com"
-    },
 ];
 
 const EN = {
@@ -114,6 +114,7 @@ const EN = {
     gmail: "Gmail",
     linkedin: "LinkedIn",
     facebook: "Facebook",
+    youtube: "YouTube",
 }
 
 const FA = {
@@ -131,6 +132,7 @@ const FA = {
     gmail: "جیمیل",
     linkedin: "لینکدین",
     facebook: "فیسبوک",
+    youtube: "یوتیوب"
 }
 
 const bodyEN = {
