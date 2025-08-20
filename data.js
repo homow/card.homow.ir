@@ -1,17 +1,17 @@
 const data = [
     {
+        name: "youtube",
+        link: "https://www.youtube.com/@homow_dev",
+        icon: "fa-brands fa-youtube",
+        color: "#da2121ff",
+        detail: "@homow_dev"
+    },
+    {
         name: "website",
         link: "https://homow.ir",
         icon: "fa-solid fa-globe slideIn-Animate",
         color: "var(--light-blue)",
         detail: "homow.ir"
-    },
-    {
-        name: "youtube",
-        link: "https://www.youtube.com/@homow_dev",
-        icon: "fa-brands fa-youtube",
-        color: "var(--light-blue)",
-        detail: "@homow_dev"
     },
     {
         name: "github",
