@@ -77,20 +77,6 @@ const data = [
         detail: "+98 921 062 9512"
     },
     {
-        name: "linkedin",
-        link: "https://www.linkedin.com/in/homow/",
-        icon: "fa-brands fa-linkedin",
-        color: "var(--blue-telegram)",
-        detail: "linkedin.com/in/homow/"
-    },
-    {
-        name: "facebook",
-        link: "https://www.facebook.com/homow.dev",
-        icon: "fa-brands fa-facebook",
-        color: "var(--blue-telegram)",
-        detail: "facebook.com/homow.dev"
-    },
-    {
         name: "proton",
         link: "mailto:homow_dev@proton.me",
         icon: "fa-solid fa-envelope",
@@ -112,8 +98,6 @@ const EN = {
     whatsapp: "Whatsapp",
     proton: "Email",
     gmail: "Gmail",
-    linkedin: "LinkedIn",
-    facebook: "Facebook",
     youtube: "YouTube",
 }
 
@@ -130,8 +114,6 @@ const FA = {
     whatsapp: "واتساپ",
     proton: "ایمیل",
     gmail: "جیمیل",
-    linkedin: "لینکدین",
-    facebook: "فیسبوک",
     youtube: "یوتیوب"
 }
 
