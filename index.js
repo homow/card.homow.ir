@@ -20,7 +20,6 @@ const changeBodyDir = () => {
     })
 
     document.querySelector(".contact-wrapper").classList.toggle("dir-eng", lang === "EN")
-    headerContainer.classList.toggle("dir-eng", lang === "EN")
 }
 
 const setText = () => {
