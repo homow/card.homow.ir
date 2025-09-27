@@ -49,13 +49,6 @@ const data = [
         detail: "@homow_dev"
     },
     {
-        name: "channel",
-        link: "https://t.me/HomowDev",
-        icon: "fa-brands fa-telegram",
-        color: "var(--blue-telegram)",
-        detail: "@HomowDev"
-    },
-    {
         name: "telPort",
         link: "https://t.me/homow_portfolio",
         icon: "fa-brands fa-telegram",
@@ -84,7 +77,6 @@ const EN = {
     phone1: "Phone Number 1",
     phone2: "Phone Number 2",
     telegram: "Telegram",
-    channel: "Channel",
     telPort: "Portfolio",
     instagram: "Instagram",
     whatsapp: "Whatsapp",
@@ -99,7 +91,6 @@ const FA = {
     phone1: "شماره تماس اول",
     phone2: "شماره تماس دوم",
     telegram: "صفحه تلگرام",
-    channel: "چنل تلگرام",
     telPort: "چنل نمونه کارها",
     instagram: "اینستاگرام",
     whatsapp: "واتساپ",
