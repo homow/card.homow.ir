@@ -63,13 +63,6 @@ const data = [
         detail: "@homow_portfolio"
     },
     {
-        name: "telGroup",
-        link: "https://t.me/homow_chat",
-        icon: "fa-brands fa-telegram",
-        color: "var(--blue-telegram)",
-        detail: "@homow_chat"
-    },
-    {
         name: "whatsapp",
         link: "https://wa.me/989210629512",
         icon: "fa-brands fa-whatsapp",
@@ -93,7 +86,6 @@ const EN = {
     telegram: "Telegram",
     channel: "Channel",
     telPort: "Portfolio",
-    telGroup: "Telegram Chats",
     instagram: "Instagram",
     whatsapp: "Whatsapp",
     proton: "Email",
@@ -109,7 +101,6 @@ const FA = {
     telegram: "صفحه تلگرام",
     channel: "چنل تلگرام",
     telPort: "چنل نمونه کارها",
-    telGroup: "گروه تلگرامی",
     instagram: "اینستاگرام",
     whatsapp: "واتساپ",
     proton: "ایمیل",
